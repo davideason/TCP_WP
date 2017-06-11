@@ -306,6 +306,12 @@ h6 {
     font-size: 16px;
 }
 
+/* DAE - Luna Bar */
+@font-face {
+  font-family: LunaBar;
+  src: URL('../foodhunt/fonts/LUNABAR_.TTF');
+}
+
 
 /*--------------------------------------------------------------
 3.0 Elements
@@ -1350,7 +1356,9 @@ body {
 }
 
 #home-slider .slider-title {
-    font-family: "Great Vibes", cursive;
+    /* DAE Title */
+	/*font-family: "Great Vibes", cursive; */
+	font-family: LunaBar;
     font-size: 72px;
     font-weight: 400;
 }
