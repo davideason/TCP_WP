@@ -3158,7 +3158,9 @@ body {
 .header-titlebar-wrapper {
     background: rgba(0, 0, 0, 0.016) none repeat scroll 0 0;
     border-bottom: 4px solid #dd0103;
-    height: 300px;
+    /*height: 300px;*/
+	height: 150px;
+
     overflow: hidden;
 }
 
@@ -3893,11 +3895,11 @@ body {
 }
 
 
-/* Final Customizations */
-@media(min-width:1200px){
+/* Final Customizations was 1200 */
+@media(min-width:480px){
 
 	.slider-content-wrapper {
-		background-color: rgba(5, 5, 5, 0.2);
+		background-color: rgba(5, 5, 5, 0.5);
 		padding: 20px;
 	}
 
@@ -3910,4 +3912,14 @@ body {
     position: relative;
     width:100%;
     margin-bottom:1em;
+}
+
+/*New*/
+
+.header-titlebar-wrapper {
+    height: 150px !important;
+}
+
+.header-title {
+    font-family: LunaBar !important;
 }
