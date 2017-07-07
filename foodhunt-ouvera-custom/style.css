@@ -1498,6 +1498,8 @@ body {
     background: #141414 none repeat scroll 0 0;
 }
 
+/*Ouvera Featured Banner Image */
+#custom-featured-bg-banner{width:100%;height:175px;/*border-bottom:4px solid #dd0103;*/}
 
 /*--------------------------------------------------------------
  19.1 Header Ticker CSS
@@ -2930,8 +2932,13 @@ body {
 }
 
 #main {
-    margin: 100px 0;
+	/* Ouvera - changing content margins */
+    margin-top: 32px;
+	margin-right: 0;
+	margin-bottom: 100px;
+	margin-left: 0;
 }
+
 
 #secondary {
     float: right;
@@ -3917,9 +3924,13 @@ body {
 /*New*/
 
 .header-titlebar-wrapper {
-    height: 150px !important;
+    height: 100px !important;
 }
 
 .header-title {
     font-family: LunaBar !important;
+    margin-bottom: 0px;
+	font-size:28px;
 }
+
+

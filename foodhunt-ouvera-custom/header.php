@@ -153,5 +153,14 @@
 				<div class="header-title-wrap">
 					<?php foodhunt_header_title(); ?>
 				</div>
+
 			</div>
+			
+			<!-- Header Featured Img Banner -->
+			<?php if (has_post_thumbnail( $post->ID ) ): ?>
+				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+				<div id="custom-featured-bg-banner" style="background:url('<?php echo $image[0]; ?>') no-repeat center center; "></div>
+			<?php endif; ?>
+			<!-- /Header Featured Img Banner -->
+			
 		<?php } ?>
